@@ -9,7 +9,6 @@
     position: relative;
     width: 100%;
     height: 10vh;
-
 }
 
 nav {
@@ -21,16 +20,115 @@ nav {
     justify-content: space-between;
 }
 
+.logo {
+    width: 10%;
+    height: auto;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-
 }
 
 nav ul li a {
     text-decoration: none;
     color: azure;
     font-weight: bold;
+}
 
+.home {
+    margin-left: 8%;
+    margin-top: 10%;
+    color: azure;
+}
+
+.intro {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.bcis_pic {
+    position: relative;
+    width: 75%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.figcaption {
+    color: azure;
+    margin-left: 5%;
+}
+
+.link {
+    color: azure;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .logo {
+        height: 80px;
+    }
+
+    .bcis_pic {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+.education {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.education header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+
+.educationpic {
+    position: relative;
+    width: 20%;
+    height: auto;
+    margin-right: 40%;
+    float: right;
+    top: -200px;
+}
+
+.projects {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.projects header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+
+.project1 {
+    position: relative;
+    width: 20%;
+    height: auto;
+    margin-right: 40%;
+    float: right;
+    top: -200px;
 }
